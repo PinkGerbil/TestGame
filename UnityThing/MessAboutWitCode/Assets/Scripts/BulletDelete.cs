@@ -10,5 +10,11 @@ public class BulletDelete : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+
+        if(other.tag == "Enemy")
+        {
+            Destroy(other.gameObject);
+            Destroy(this.gameObject);
+        }
     }
 }

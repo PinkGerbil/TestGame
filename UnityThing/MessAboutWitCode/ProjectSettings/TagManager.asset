@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Bullet
   - Wall
+  - Ground
+  - Enemy
   layers:
   - Default
   - TransparentFX
